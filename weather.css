@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+* {
+  transition: all 0.1s ease-in;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  padding: 0;
+}
+.icon {
+  font-size: 25px;
+}
+
+.city {
+  cursor: pointer;
+  height: 140px;
+  border: 2px solid #fff;
+  font-size: large;
+  display: inline-block;
+}
+.head {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: #fff;
+  margin: auto;
+  text-align: center;
+}
+.container {
+  margin-top: 5%;
+  font-size: 0;
+  background: #3399cc;
+}
+
+.wrapper {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  border: 2px solid #fff;
+  margin: auto;
+  width: 800px;
+  display: block;
+}
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+.w-half {
+  width: 50%;
+}
+
+.w-quat {
+  width: 25%;
+}
+.w-full {
+  width: 100%;
+}
+.wrapper:hover .city {
+  opacity: 0.5;
+}
+.wrapper:hover .city:hover {
+  opacity: 1;
+}
+
+.orange {
+  color: #fff;
+}
+
+.blue {
+  background: #3399cc;
+  color: #fff;
+}
+.grn {
+  background: #3cc;
+  color: #fff;
+}
+.violet {
+  background: #969;
+  color: #fff;
+}
+.red {
+  background: #c24747;
+  color: #fff;
+}
+.yellow {
+  background: #ffcc66;
+  color: #fff;
+}
+.light {
+  background: #9c9;
+  color: #fff;
+}
+.swamp {
+  background: #699;
+  color: #fff;
+}
+.pink {
+  background: #c69;
+  color: #fff;
+}
+.green {
+  background: #396;
+  color: #fff;
+}
+.dbl {
+  background: #669;
+  color: #fff;
+}
+.foot {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+}
